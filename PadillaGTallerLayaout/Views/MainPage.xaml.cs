@@ -20,6 +20,11 @@
 
             SemanticScreenReader.Announce(CounterBtn.Text);
         }
+
+        private void IrATest_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Test());
+        }
     }
 
 }

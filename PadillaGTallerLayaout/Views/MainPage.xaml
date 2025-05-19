@@ -30,6 +30,13 @@
                 SemanticProperties.Hint="Counts the number of times you click"
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Fill" />
+
+            <Button
+                x:Name="IrATest"
+                Text="Ir a test"
+                Style="{StaticResource Boton1}"
+                Clicked="IrATest_Clicked"
+                />
         </VerticalStackLayout>
     </ScrollView>
 
