@@ -37,6 +37,12 @@
                 Style="{StaticResource Boton1}"
                 Clicked="IrATest_Clicked"
                 />
+            <Button
+                x:Name="IrAGrid"
+                Text="Ir a grid"
+                Style="{StaticResource Boton2}"
+                Clicked="IrAGrid_Clicked"
+                />
         </VerticalStackLayout>
     </ScrollView>
 

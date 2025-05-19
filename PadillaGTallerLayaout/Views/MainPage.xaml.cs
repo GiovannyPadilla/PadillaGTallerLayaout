@@ -1,4 +1,6 @@
-﻿namespace PadillaGTallerLayaout
+﻿using PadillaGTallerLayaout.Views;
+
+namespace PadillaGTallerLayaout
 {
     public partial class MainPage : ContentPage
     {
@@ -24,6 +26,12 @@
         private void IrATest_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new Test());
+        }
+
+        private void IrAGrid_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new GridLayaout());
+
         }
     }
 

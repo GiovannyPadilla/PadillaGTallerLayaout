@@ -51,7 +51,12 @@
 
     <Style TargetType="Button" x:Key="Boton1">
         <Setter Property="FontSize" Value="20"/>
-        <Setter Property="BackgroundColor" Value="Black"/>        
+        <Setter Property="BackgroundColor" Value="AliceBlue"/>        
+    </Style>
+
+    <Style TargetType="Button" x:Key="Boton2">
+        <Setter Property="FontSize" Value="20"/>
+        <Setter Property="BackgroundColor" Value="Brown"/>
     </Style>
 
     <Style TargetType="CheckBox">

@@ -63,6 +63,15 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="Views\GridLayout.xaml.cs">
+	    <DependentUpon>GridLayout.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="Views\GridLayout.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\Test.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
