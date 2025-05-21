@@ -1,15 +1,14 @@
-
 namespace PadillaGTallerLayaout.Views;
 
-public partial class GridLayaout : ContentPage
+public partial class StackLayout : ContentPage
 {
-	public GridLayaout()
+	public StackLayout()
 	{
 		InitializeComponent();
 	}
 
     private void Button_Clicked(object sender, EventArgs e)
     {
-        Navigation.PushAsync(new StackLayout());
+		Navigation.PushAsync(new StackLayout());
     }
 }
