@@ -1,14 +1,14 @@
 namespace PadillaGTallerLayaout.Views;
 
-public partial class StackLayout : ContentPage
+public partial class AbsoluteLayout : ContentPage
 {
-	public StackLayout()
+	public AbsoluteLayout()
 	{
 		InitializeComponent();
 	}
 
     private void Button_Clicked(object sender, EventArgs e)
     {
-		Navigation.PushAsync(new FlexLayout());
+        Navigation.PushAsync(new GridLayaout());
     }
 }
